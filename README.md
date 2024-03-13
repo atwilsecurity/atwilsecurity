@@ -5,7 +5,7 @@
  - ⚡ Fun fact: I previously broke stuff 🔓(pentester), now I make stuff (app developer)👷🔐
  - 📫 How to reach me: dev@onevm.io
 
-Thanks for visiting! 🙏
+Thanks for visiting, God Bless! 🙏
  
 <!--
 **atwilsecurity/atwilsecurity** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
