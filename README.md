@@ -1,5 +1,12 @@
-### Hi there 👋
+### Hello my fellow coders... 👋 🚀
 
+ - 🔭 I’m currently working on world domination with AI 👑
+ - 🤔 I’m looking for help with new app development focused on Cloud Security...⛅
+ - ⚡ Fun fact: I previously broke stuff 🔓(pentester), now I make stuff (app developer)👷🔐
+ - 📫 How to reach me: dev@onevm.io
+
+Thanks for visiting! 🙏
+ 
 <!--
 **atwilsecurity/atwilsecurity** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
