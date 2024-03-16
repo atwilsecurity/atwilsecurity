@@ -1,8 +1,8 @@
 ### Hello my fellow coders... 👋 🚀
 
- - 🔭 I’m currently working on world domination with AI 👑
+ - 🔭 I’m currently working on world domination with AI / DevSecOps Advocate 👑
  - 🤔 I’m looking for help with new app development focused on Cloud Security...⛅
- - ⚡ Fun fact: I previously broke stuff 🔓(pentester), now I make stuff (app developer)👷🔐
+ - ⚡ Fun fact: I previously broke stuff 🔓(pentester), now I make stuff (app developer) from CoDe 2 Cloud Securely👷🔐
  - 📫 How to reach me: dev@onevm.io
 
 Thanks for visiting, God Bless! 🙏
