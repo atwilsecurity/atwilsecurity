@@ -14,11 +14,11 @@
 const atwilsecurity = {
     currentMission: "World domination with AI 🌍🤖",
     role: "DevSecOps Advocate 👑",
-    background: "Reformed Pentester → Secure App Developer",
+    background: "Reformed Pentester → Secure App Automation Developer",
     motto: "From breaking stuff 🔓 to building stuff 🛠️",
     focus: "Code 2 Cloud Security 🔐☁️",
-    currentlyBuilding: "Cloud Security Applications",
-    lookingFor: "Collaboration on innovative security solutions",
+    currentlyBuilding: "Cloud Security AI Applications",
+    lookingFor: "Collaboration on innovative security solutions and VCs",
     contactMe: "security@agentbounty.ai"
 };
 ```
