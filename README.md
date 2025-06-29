@@ -85,8 +85,8 @@ const atwilsecurity = {
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-security@agentbounty.ai-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:security@agentbounty.ai)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/atwilsecurity)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/atwilsecurity)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atwilcybersecurity/)
+[![X](https://img.shields.io/badge/Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/agentbountyai)
 
 </div>
 
