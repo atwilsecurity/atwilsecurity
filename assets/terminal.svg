@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="Wil Ramos terminal banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07000f"/>
+      <stop offset="0.6" stop-color="#12002a"/>
+      <stop offset="1" stop-color="#2a0040"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.045"/>
+    </pattern>
+    <clipPath id="floor"><rect x="0" y="250" width="960" height="150"/></clipPath>
+    <clipPath id="c1"><rect x="96" y="196" height="26" width="0"><animate attributeName="width" from="0" to="110" begin="0.6s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="96" y="248" height="26" width="0"><animate attributeName="width" from="0" to="170" begin="2.0s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="96" y="300" height="26" width="0"><animate attributeName="width" from="0" to="250" begin="3.5s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code',SFMono-Regular,Menlo,Consolas,monospace; }
+      .hud { font-size: 11px; fill: #05d9e8; opacity: .55; letter-spacing: 2px; }
+      .t { font-size: 15px; fill: #d7c9ff; }
+      .p { fill: #ff2a6d; }
+      .c { fill: #05d9e8; }
+      .g { fill: #39ff9a; }
+      .dim { fill: #8a7ab8; }
+      .out { opacity: 0; animation: show .01s linear forwards; }
+      .o2 { animation-delay: 1.4s; } .o4 { animation-delay: 2.9s; } .o6 { animation-delay: 4.5s; } .o7 { animation-delay: 5.0s; }
+      @keyframes show { to { opacity: 1; } }
+      .cursor { animation: show .01s linear 5.0s forwards, blink 1s steps(1) 5.0s infinite; opacity: 0; }
+      @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+      .grid { animation: roll 1.6s linear infinite; }
+      @keyframes roll { from { transform: translateY(0); } to { transform: translateY(24px); } }
+      .gl1 { animation: g1 3.2s steps(1) infinite; }
+      .gl2 { animation: g2 3.2s steps(1) infinite; }
+      @keyframes g1 { 0%,86%,100% { transform: translate(0,0); } 88% { transform: translate(-6px,2px); } 92% { transform: translate(4px,-2px); } 95% { transform: translate(-2px,0); } }
+      @keyframes g2 { 0%,86%,100% { transform: translate(0,0); } 88% { transform: translate(6px,-2px); } 92% { transform: translate(-4px,2px); } 95% { transform: translate(3px,1px); } }
+      .flicker { animation: fl 5s linear infinite; }
+      @keyframes fl { 0%,100% { opacity: 1; } 41% { opacity: 1; } 42% { opacity: .55; } 43% { opacity: 1; } 77% { opacity: 1; } 78% { opacity: .7; } 79% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="960" height="400" fill="url(#bg)"/>
+
+  <!-- synthwave floor grid -->
+  <g clip-path="url(#floor)" stroke="#ff2a6d" stroke-width="1" opacity="0.35">
+    <g class="grid">
+      <line x1="0" y1="250" x2="960" y2="250"/><line x1="0" y1="262" x2="960" y2="262"/>
+      <line x1="0" y1="278" x2="960" y2="278"/><line x1="0" y1="298" x2="960" y2="298"/>
+      <line x1="0" y1="322" x2="960" y2="322"/><line x1="0" y1="350" x2="960" y2="350"/>
+      <line x1="0" y1="382" x2="960" y2="382"/><line x1="0" y1="226" x2="960" y2="226"/>
+      <line x1="0" y1="238" x2="960" y2="238"/>
+    </g>
+    <line x1="480" y1="250" x2="-480" y2="400"/><line x1="480" y1="250" x2="-120" y2="400"/>
+    <line x1="480" y1="250" x2="180" y2="400"/><line x1="480" y1="250" x2="380" y2="400"/>
+    <line x1="480" y1="250" x2="580" y2="400"/><line x1="480" y1="250" x2="780" y2="400"/>
+    <line x1="480" y1="250" x2="1080" y2="400"/><line x1="480" y1="250" x2="1440" y2="400"/>
+  </g>
+
+  <!-- HUD -->
+  <text x="24" y="26" class="mono hud">SYS://ATWILSECURITY</text>
+  <text x="936" y="26" class="mono hud" text-anchor="end">NODE US-REMOTE  ::  UPLINK OK</text>
+
+  <!-- glitch title -->
+  <g class="mono" font-size="54" font-weight="800" letter-spacing="10" text-anchor="middle">
+    <text x="480" y="84" fill="#05d9e8" opacity="0.8" class="gl1">WIL RAMOS</text>
+    <text x="480" y="84" fill="#ff2a6d" opacity="0.8" class="gl2">WIL RAMOS</text>
+    <text x="480" y="84" fill="#f5f0ff" filter="url(#glow)" class="flicker">WIL RAMOS</text>
+  </g>
+  <text x="480" y="114" class="mono" font-size="13" fill="#05d9e8" text-anchor="middle" letter-spacing="3">// SECURITY ENGINEER  ·  FOUNDER  ·  BREAKER TURNED BUILDER //</text>
+
+  <!-- terminal window -->
+  <rect x="60" y="140" width="840" height="236" rx="8" fill="#0a0018" fill-opacity="0.92" stroke="#05d9e8" stroke-width="1.5" filter="url(#glow)"/>
+  <rect x="60" y="140" width="840" height="26" rx="8" fill="#1a0533"/>
+  <rect x="60" y="158" width="840" height="8" fill="#1a0533"/>
+  <circle cx="80" cy="153" r="5" fill="#ff2a6d"/><circle cx="98" cy="153" r="5" fill="#f9c80e"/><circle cx="116" cy="153" r="5" fill="#39ff9a"/>
+  <text x="480" y="157" class="mono" font-size="12" fill="#8a7ab8" text-anchor="middle">wil@ramos: ~ [zsh]</text>
+
+  <g class="mono t">
+    <text x="96" y="214" clip-path="url(#c1)"><tspan class="p">$</tspan> whoami</text>
+    <text x="96" y="240" class="out o2">wil ramos <tspan class="dim">::</tspan> security engineer <tspan class="dim">//</tspan> founder <tspan class="dim">//</tspan> 21+ yrs in the field</text>
+    <text x="96" y="266" clip-path="url(#c3)"><tspan class="p">$</tspan> cat ./mission</text>
+    <text x="96" y="292" class="out o4"><tspan class="c">find it fast. prove it's real. fix it before an attacker does.</tspan></text>
+    <text x="96" y="318" clip-path="url(#c5)"><tspan class="p">$</tspan> systemctl status wil</text>
+    <text x="96" y="344" class="out o6"><tspan class="g">●</tspan> active (running) <tspan class="dim">::</tspan> agent bounty · mongoose ai · automate or die trying</text>
+    <text x="96" y="368" class="out o7"><tspan class="p">$</tspan></text>
+    <rect x="112" y="355" width="9" height="16" fill="#05d9e8" class="cursor"/>
+  </g>
+
+  <rect width="960" height="400" fill="url(#scan)" pointer-events="none"/>
+</svg>
