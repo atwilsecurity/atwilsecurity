@@ -1,113 +1,33 @@
-# Hello, Fellow Coders! 👋 
+### Wil Ramos
 
-<div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&width=435&lines=DevSecOps+Advocate+%F0%9F%91%91;Cloud+Security+Enthusiast+%E2%9B%85;From+Breaking+to+Building+%F0%9F%94%93%E2%9E%A1%EF%B8%8F%F0%9F%9B%A0%EF%B8%8F;Code+2+Cloud+Securely+%F0%9F%94%90)](https://git.io/typing-svg)
+Security engineer and founder. 21+ years in cybersecurity, starting in the U.S. Navy Reserve and running through JPMorgan Chase, Ernst & Young, Dell SecureWorks and Wolters Kluwer.
 
-</div>
+I spent the first half of my career breaking into systems and the second half building the automation that fixes them. The problem I work on: organizations find vulnerabilities far faster than they remediate them, and attackers live in that gap.
 
 ---
 
-## 🚀 About Me
+#### Now
 
-```javascript
-const atwilsecurity = {
-    currentMission: "World domination with AI 🌍🤖",
-    role: "DevSecOps Advocate 👑",
-    background: "Reformed Pentester → Secure App Automation Developer",
-    motto: "From breaking stuff 🔓 to building stuff 🛠️",
-    focus: "Code 2 Cloud Security 🔐☁️",
-    currentlyBuilding: "Cloud Security AI Applications",
-    lookingFor: "Collaboration on innovative security solutions and VCs",
-    contactMe: "security@agentbounty.ai"
-};
-```
+- **Lead Security & AI Engineer, Wolters Kluwer.** Multi-cloud security across Azure, GCP and AWS. AI and API security governance, DevSecOps pipelines (SAST, DAST, IAST, SCA, IaC scanning), SOAR playbooks in Microsoft Sentinel orchestrating 15+ security tools, Cortex XSOAR integrations.
+- **Founder & CEO, [Agent Bounty](https://agentbounty.ai).** Continuous exposure management run by a coordinated set of 21+ AI agents: scan, prove exploitability, generate the fix, learn from the cycle. Only validated findings reach a human. SOC 2 Type I.
+- **Builder, [Mongoose AI](https://mongooseai.io).** AI security posture management: tests, monitors and secures models, agent identities and AI harnesses.
+- **Host, Automate or Die Trying.** Podcast on security automation, AI agents, DevSecOps and engineering leadership. 50K+ subscribers.
+- **Principal, Cyber Security Privacy LLC** (since 2016). DevSecOps-as-a-Service, SOAR automation, cloud and AI security consulting.
 
-## 🛡️ My Security Journey
+#### Selected work
 
-> **Previously:** Breaking into systems as a Pentester 🔓  
-> **Currently:** Building secure systems as a Developer 👷‍♂️  
-> **Mission:** Securing the entire development lifecycle from code to cloud ☁️🔐
+- Built an internal enterprise security framework: 14 domains, 348 controls, 166 threats. Fronted by a retrieval-grounded assistant with citation pinning and prompt-injection guards, and exposed to coding agents through a hardened MCP server. Every published figure is checked by an independent judge against measured data.
+- Shift-left access onboarding: Jira forms, Logic Apps approvals and Orca API security checks before anything gets provisioned.
+- Ran the vulnerability management program for Comcast/NBCU (Dell SecureWorks): 1M+ IP addresses, 1,200 external web apps, 80 internal Qualys scanners.
 
-## 🔭 Current Focus Areas
+#### Stack
 
-- 🤖 **AI-Powered Security Solutions** - Leveraging artificial intelligence for enhanced security
-- ⛅ **Cloud Security Architecture** - Building robust security frameworks for cloud environments  
-- 🔄 **DevSecOps Implementation** - Integrating security into every stage of development
-- 📱 **Secure Application Development** - Creating applications with security-first mindset
+`Azure` `GCP` `AWS` `Terraform` `Kubernetes` `Docker` `Python` `TypeScript` `FastAPI` `PowerShell` `Sentinel` `XSOAR` `Splunk` `Orca` `Snyk` `Semgrep` `Trivy` `Burp Suite` `Metasploit` `MCP` `LLM security (OWASP Top 10 for LLMs)`
 
-## 🤝 Looking to Collaborate On
+#### Certifications
 
-- 🌟 Innovative cloud security applications
-- 🔐 Open-source security tools
-- 🤖 AI/ML security solutions
-- 📚 Security education and awareness projects
+AWS Security Specialty · AWS Solutions Architect Professional · AWS Generative AI Developer Professional · AWS Machine Learning Specialty · Microsoft Cybersecurity Architect Expert · Azure Solutions Architect Expert · Google Professional Cloud Security Engineer · Google Professional Cloud Architect · Google Professional ML Engineer · Google Professional Agentic Architect · ISACA CISA, CISM, CRISC · Certified DevSecOps Professional · CEH
 
-## 🛠️ Tech Arsenal
+#### Contact
 
-<div align="center">
-
-![Security](https://img.shields.io/badge/Security-Expert-red?style=for-the-badge&logo=security&logoColor=white)
-![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-blue?style=for-the-badge&logo=cloud&logoColor=white)
-![DevOps](https://img.shields.io/badge/DevOps-CI%2FCD-green?style=for-the-badge&logo=devops&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Machine%20Learning-purple?style=for-the-badge&logo=ai&logoColor=white)
-
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=atwilsecurity&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=atwilsecurity&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=atwilsecurity&theme=radical&no-frame=true&no-bg=true&margin-w=4)
-
-</div>
-
-## 📈 Contribution Graph
-
-<div align="center">
-  
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=atwilsecurity&theme=redical&hide_border=true)
-
-</div>
-
-## 💬 Let's Connect!
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-security@agentbounty.ai-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:security@agentbounty.ai)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atwilcybersecurity/)
-[![X](https://img.shields.io/badge/Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/agentbountyai)
-
-</div>
-
----
-
-<div align="center">
-
-### 🙏 *Thanks for visiting! God Bless!* 🙏
-
-*"Security is not a product, but a process"* - Bruce Schneier
-
-![Visitor Count](https://komarev.com/ghpvc/?username=atwilsecurity&style=flat-square&color=red&label=Visitors&base=7777)
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
-
-</div>
-
----
-
-⭐ **Fun Fact:** I've gone from finding vulnerabilities to fixing them - talk about a career plot twist! 🎭
-
-<div align="center">
-  <i>⚡ Powered by coffee ☕ and a passion for secure code 🔐</i>
-</div>
+[LinkedIn](https://www.linkedin.com/in/atwilcybersecurity/) · [security@agentbounty.ai](mailto:security@agentbounty.ai) · [agentbounty.ai](https://agentbounty.ai) · [Credly](https://www.credly.com/users/wilramos/badges)
