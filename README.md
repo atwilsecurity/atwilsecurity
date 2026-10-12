@@ -1,33 +1,87 @@
-### Wil Ramos
+<p align="center">
+  <img src="./assets/terminal.svg" alt="wil@ramos terminal" width="100%">
+</p>
 
-Security engineer and founder. 21+ years in cybersecurity, starting in the U.S. Navy Reserve and running through JPMorgan Chase, Ernst & Young, Dell SecureWorks and Wolters Kluwer.
-
-I spent the first half of my career breaking into systems and the second half building the automation that fixes them. The problem I work on: organizations find vulnerabilities far faster than they remediate them, and attackers live in that gap.
+<p align="center">
+  <a href="https://www.linkedin.com/in/atwilcybersecurity/"><img src="https://img.shields.io/badge/linkedin-connect-ff2a6d?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0221"></a>
+  <a href="https://agentbounty.ai"><img src="https://img.shields.io/badge/agentbounty.ai-online-05d9e8?style=for-the-badge&labelColor=0d0221"></a>
+  <a href="https://mongooseai.io"><img src="https://img.shields.io/badge/mongooseai.io-online-39ff9a?style=for-the-badge&labelColor=0d0221"></a>
+  <a href="mailto:security@agentbounty.ai"><img src="https://img.shields.io/badge/ping-security%40agentbounty.ai-f9c80e?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0d0221"></a>
+</p>
 
 ---
 
-#### Now
+### `wil@ramos:~$ cat ./profile.yml`
 
-- **Lead Security & AI Engineer, Wolters Kluwer.** Multi-cloud security across Azure, GCP and AWS. AI and API security governance, DevSecOps pipelines (SAST, DAST, IAST, SCA, IaC scanning), SOAR playbooks in Microsoft Sentinel orchestrating 15+ security tools, Cortex XSOAR integrations.
-- **Founder & CEO, [Agent Bounty](https://agentbounty.ai).** Continuous exposure management run by a coordinated set of 21+ AI agents: scan, prove exploitability, generate the fix, learn from the cycle. Only validated findings reach a human. SOC 2 Type I.
-- **Builder, [Mongoose AI](https://mongooseai.io).** AI security posture management: tests, monitors and secures models, agent identities and AI harnesses.
-- **Host, Automate or Die Trying.** Podcast on security automation, AI agents, DevSecOps and engineering leadership. 50K+ subscribers.
-- **Principal, Cyber Security Privacy LLC** (since 2016). DevSecOps-as-a-Service, SOAR automation, cloud and AI security consulting.
+```yaml
+name:       Wil Ramos
+handle:     atwilsecurity
+class:      security engineer / founder
+xp:         21+ years
+origin:     U.S. Navy Reserve -> JPMorgan Chase -> Ernst & Young -> Dell SecureWorks -> Wolters Kluwer
+alignment:  breaker turned builder
+motto:      "from breaking stuff to building stuff"
+speaks:     [English, Español]
+```
 
-#### Selected work
+### `wil@ramos:~$ ps aux | grep wil`
 
-- Built an internal enterprise security framework: 14 domains, 348 controls, 166 threats. Fronted by a retrieval-grounded assistant with citation pinning and prompt-injection guards, and exposed to coding agents through a hardened MCP server. Every published figure is checked by an independent judge against measured data.
-- Shift-left access onboarding: Jira forms, Logic Apps approvals and Orca API security checks before anything gets provisioned.
-- Ran the vulnerability management program for Comcast/NBCU (Dell SecureWorks): 1M+ IP addresses, 1,200 external web apps, 80 internal Qualys scanners.
+```diff
++ [RUNNING]  Lead Security & AI Engineer @ Wolters Kluwer
+             multi-cloud security across Azure, GCP and AWS
+             AI + API security governance, DevSecOps pipelines (SAST/DAST/IAST/SCA/IaC)
+             Sentinel SOAR playbooks orchestrating 15+ security tools, XSOAR integrations
 
-#### Stack
++ [RUNNING]  Founder & CEO @ Agent Bounty
+             21+ AI agents: scan -> prove it's exploitable -> write the fix -> learn
+             only validated findings reach a human. SOC 2 Type I.
 
-`Azure` `GCP` `AWS` `Terraform` `Kubernetes` `Docker` `Python` `TypeScript` `FastAPI` `PowerShell` `Sentinel` `XSOAR` `Splunk` `Orca` `Snyk` `Semgrep` `Trivy` `Burp Suite` `Metasploit` `MCP` `LLM security (OWASP Top 10 for LLMs)`
++ [RUNNING]  Builder @ Mongoose AI
+             AI security posture: models, agent identities, AI harnesses
 
-#### Certifications
++ [RUNNING]  Host @ Automate or Die Trying          50K+ subscribers
++ [RUNNING]  Principal @ Cyber Security Privacy LLC  since 2016
 
-AWS Security Specialty · AWS Solutions Architect Professional · AWS Generative AI Developer Professional · AWS Machine Learning Specialty · Microsoft Cybersecurity Architect Expert · Azure Solutions Architect Expert · Google Professional Cloud Security Engineer · Google Professional Cloud Architect · Google Professional ML Engineer · Google Professional Agentic Architect · ISACA CISA, CISM, CRISC · Certified DevSecOps Professional · CEH
+- [KILLED]   alert fatigue
+- [KILLED]   false positives nobody triages
+```
 
-#### Contact
+### `wil@ramos:~$ tail ./war_stories.log`
 
-[LinkedIn](https://www.linkedin.com/in/atwilcybersecurity/) · [security@agentbounty.ai](mailto:security@agentbounty.ai) · [agentbounty.ai](https://agentbounty.ai) · [Credly](https://www.credly.com/users/wilramos/badges)
+```log
+[secureworks]    ran vuln mgmt for Comcast/NBCU: 1M+ IPs, 1,200 external web apps, 80 Qualys scanners
+[wolters kluwer] shift-left onboarding: Jira form -> Logic Apps approvals -> Orca checks -> provision
+[wolters kluwer] security framework: 14 domains, 348 controls, 166 threats
+                 RAG assistant w/ citation pinning + prompt-injection guards, hardened MCP server,
+                 every published number checked by an independent judge
+[always]         find it fast. prove it's real. fix it before an attacker does.
+```
+
+### `wil@ramos:~$ ls ./arsenal`
+
+```bash
+cloud/     azure  gcp  aws  terraform  kubernetes  docker
+code/      python  typescript  fastapi  powershell  bash
+detect/    sentinel  xsoar  splunk
+scan/      orca  snyk  semgrep  trivy
+offense/   burp  metasploit  nmap  cobalt-strike
+ai/        llm-security  owasp-llm-top-10  mcp  agents
+```
+
+### `wil@ramos:~$ cat ~/.certs`
+
+```diff
++ [✓] aws     security specialty · solutions architect pro · generative ai developer pro · ml specialty
++ [✓] azure   cybersecurity architect expert · solutions architect expert
++ [✓] gcp     cloud security engineer · cloud architect · ml engineer · agentic architect
++ [✓] isaca   cisa · cism · crisc
++ [✓] misc    certified devsecops professional · ceh
+! [~] in training   offsec ai red teamer (OSAI)
+```
+
+### `wil@ramos:~$ exit`
+
+```console
+logout. connection to atwilsecurity closed.
+"security is not a product, but a process." - bruce schneier
+```
